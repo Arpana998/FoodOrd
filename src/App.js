@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import Header from './Components/Layout/Header';
+import AvailableMeals from './Components/Meals/AvailableMeals';
 import MealsSummary from './Components/Meals/MealsSummary';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <Fragment>
       <Header />
       <MealsSummary />
+      <AvailableMeals />
     </Fragment>
   );
 }
